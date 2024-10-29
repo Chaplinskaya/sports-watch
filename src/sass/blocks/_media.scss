@@ -1,0 +1,87 @@
+@media (max-width: 991px) {
+    .header {
+        padding: 0 15px;
+    }
+
+    .promo__wrapper {
+        align-items: center;
+    }
+
+    .promo__header {
+        font-size: 40px;
+    }
+
+    .advantages__icon {
+        padding: 0 10px;
+    }
+
+    .advantages__text {
+        width: 220px;
+    }
+
+    .title_left {
+        font-size: 32px;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .consultation__descr {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .feed-form {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__official {
+        display: none;
+    }
+
+    .advantages__icons {
+        flex-direction: column;
+    }
+
+    .title_left {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header__logo {
+        width: 170px;
+    }
+
+    .header__phone {
+        font-size: 14px;
+    }
+
+    .promo__header {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .promo__subheader {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .promo__icons {
+        width: 320px;
+    }
+
+    .promo__icon {
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .title_left {
+        font-size: 26px;
+    }
+
+    .consultation__descr {
+        font-size: 16px;
+    }
+}
